@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/aldo/ros2_ws/build/micro_ros_agent/CMakeFiles/xrceagent"
+			"file" : "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/CMakeFiles/xrceagent"
 		},
 		{
-			"file" : "/home/aldo/ros2_ws/build/micro_ros_agent/CMakeFiles/xrceagent.rule"
+			"file" : "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/CMakeFiles/xrceagent.rule"
 		},
 		{
-			"file" : "/home/aldo/ros2_ws/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule"
+			"file" : "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule"
 		},
 		{
-			"file" : "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule"
+			"file" : "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule"
 		},
 		{
-			"file" : "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule"
+			"file" : "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule"
 		},
 		{
-			"file" : "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule"
+			"file" : "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule"
 		},
 		{
-			"file" : "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule"
+			"file" : "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule"
 		},
 		{
-			"file" : "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule"
+			"file" : "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule"
 		},
 		{
-			"file" : "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule"
+			"file" : "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule"
 		},
 		{
-			"file" : "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule"
+			"file" : "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule"
 		}
 	],
 	"target" : 

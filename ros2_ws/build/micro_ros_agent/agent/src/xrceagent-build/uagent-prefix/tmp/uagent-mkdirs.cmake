@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent"
-  "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build"
-  "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix"
-  "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp"
-  "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp"
-  "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src"
-  "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp"
+  "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent"
+  "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build"
+  "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix"
+  "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp"
+  "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp"
+  "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src"
+  "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp${cfgdir}") # cfgdir has leading slash
 endif()

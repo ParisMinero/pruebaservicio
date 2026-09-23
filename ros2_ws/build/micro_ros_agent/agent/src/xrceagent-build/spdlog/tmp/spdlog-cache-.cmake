@@ -1,6 +1,6 @@
 
-set(CMAKE_INSTALL_PREFIX "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2" CACHE PATH "Initial cache" FORCE)
-set(CMAKE_PREFIX_PATH "/home/aldo/ros2_ws/install/micro_ros_agent;/home/aldo/ros2_ws/install/micro_ros_agent" CACHE PATH "Initial cache" FORCE)
+set(CMAKE_INSTALL_PREFIX "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2" CACHE PATH "Initial cache" FORCE)
+set(CMAKE_PREFIX_PATH "/home/robotics/pruebaservicio/ros2_ws/install/micro_ros_agent;/home/robotics/pruebaservicio/ros2_ws/install/micro_ros_agent" CACHE PATH "Initial cache" FORCE)
 set(BUILD_SHARED_LIBS "OFF" CACHE BOOL "Initial cache" FORCE)
 set(CMAKE_TOOLCHAIN_FILE "" CACHE PATH "Initial cache" FORCE)
 set(CMAKE_BUILD_TYPE "" CACHE STRING "Initial cache" FORCE)

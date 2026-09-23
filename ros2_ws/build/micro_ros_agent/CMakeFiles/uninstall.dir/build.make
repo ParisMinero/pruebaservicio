@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aldo/ros2_ws/src/micro-ROS-Agent/micro_ros_agent
+CMAKE_SOURCE_DIR = /home/robotics/pruebaservicio/ros2_ws/src/micro-ROS-Agent/micro_ros_agent
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aldo/ros2_ws/build/micro_ros_agent
+CMAKE_BINARY_DIR = /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/aldo/ros2_ws/build/micro_ros_agent && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aldo/ros2_ws/src/micro-ROS-Agent/micro_ros_agent /home/aldo/ros2_ws/src/micro-ROS-Agent/micro_ros_agent /home/aldo/ros2_ws/build/micro_ros_agent /home/aldo/ros2_ws/build/micro_ros_agent /home/aldo/ros2_ws/build/micro_ros_agent/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotics/pruebaservicio/ros2_ws/src/micro-ROS-Agent/micro_ros_agent /home/robotics/pruebaservicio/ros2_ws/src/micro-ROS-Agent/micro_ros_agent /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

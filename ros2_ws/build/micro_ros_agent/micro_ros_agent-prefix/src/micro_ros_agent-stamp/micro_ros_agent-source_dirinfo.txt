@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/home/aldo/ros2_ws/src/micro-ROS-Agent/micro_ros_agent
+source_dir=/home/robotics/pruebaservicio/ros2_ws/src/micro-ROS-Agent/micro_ros_agent
 work_dir=
 

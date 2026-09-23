@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent
+CMAKE_SOURCE_DIR = /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build
+CMAKE_BINARY_DIR = /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build
 
 # Utility rule file for spdlog.
 
@@ -76,50 +76,50 @@ CMakeFiles/spdlog-complete: spdlog/src/spdlog-stamp/spdlog-patch
 CMakeFiles/spdlog-complete: spdlog/src/spdlog-stamp/spdlog-configure
 CMakeFiles/spdlog-complete: spdlog/src/spdlog-stamp/spdlog-build
 CMakeFiles/spdlog-complete: spdlog/src/spdlog-stamp/spdlog-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'spdlog'"
-	/usr/bin/cmake -E make_directory /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles
-	/usr/bin/cmake -E touch /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog-complete
-	/usr/bin/cmake -E touch /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'spdlog'"
+	/usr/bin/cmake -E make_directory /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles
+	/usr/bin/cmake -E touch /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog-complete
+	/usr/bin/cmake -E touch /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-done
 
 spdlog/src/spdlog-stamp/spdlog-build: spdlog/src/spdlog-stamp/spdlog-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'spdlog'"
-	cd /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build && $(MAKE)
-	cd /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build && /usr/bin/cmake -E touch /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'spdlog'"
+	cd /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build && $(MAKE)
+	cd /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build && /usr/bin/cmake -E touch /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-build
 
 spdlog/src/spdlog-stamp/spdlog-configure: spdlog/tmp/spdlog-cfgcmd.txt
 spdlog/src/spdlog-stamp/spdlog-configure: spdlog/tmp/spdlog-cache-.cmake
 spdlog/src/spdlog-stamp/spdlog-configure: spdlog/src/spdlog-stamp/spdlog-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'spdlog'"
-	cd /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build && /usr/bin/cmake "-GUnix Makefiles" -C/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-cache-.cmake -S /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog -B /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build
-	cd /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build && /usr/bin/cmake -E touch /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'spdlog'"
+	cd /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build && /usr/bin/cmake "-GUnix Makefiles" -C/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-cache-.cmake -S /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog -B /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build
+	cd /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build && /usr/bin/cmake -E touch /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-configure
 
 spdlog/src/spdlog-stamp/spdlog-download: spdlog/src/spdlog-stamp/spdlog-gitinfo.txt
 spdlog/src/spdlog-stamp/spdlog-download: spdlog/src/spdlog-stamp/spdlog-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'spdlog'"
-	cd /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src && /usr/bin/cmake -P /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-gitclone.cmake
-	cd /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src && /usr/bin/cmake -E touch /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'spdlog'"
+	cd /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src && /usr/bin/cmake -P /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-gitclone.cmake
+	cd /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src && /usr/bin/cmake -E touch /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-download
 
 spdlog/src/spdlog-stamp/spdlog-install: spdlog/src/spdlog-stamp/spdlog-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'spdlog'"
-	cd /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build && $(MAKE) install
-	cd /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build && /usr/bin/cmake -E touch /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'spdlog'"
+	cd /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build && $(MAKE) install
+	cd /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build && /usr/bin/cmake -E touch /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-install
 
 spdlog/src/spdlog-stamp/spdlog-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'spdlog'"
-	/usr/bin/cmake -Dcfgdir= -P /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-mkdirs.cmake
-	/usr/bin/cmake -E touch /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'spdlog'"
+	/usr/bin/cmake -Dcfgdir= -P /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-mkdirs.cmake
+	/usr/bin/cmake -E touch /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-mkdir
 
 spdlog/src/spdlog-stamp/spdlog-patch: spdlog/src/spdlog-stamp/spdlog-patch-info.txt
 spdlog/src/spdlog-stamp/spdlog-patch: spdlog/src/spdlog-stamp/spdlog-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'spdlog'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'spdlog'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-patch
+	/usr/bin/cmake -E touch /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-patch
 
 spdlog/src/spdlog-stamp/spdlog-update: spdlog/tmp/spdlog-gitupdate.cmake
 spdlog/src/spdlog-stamp/spdlog-update: spdlog/src/spdlog-stamp/spdlog-update-info.txt
 spdlog/src/spdlog-stamp/spdlog-update: spdlog/src/spdlog-stamp/spdlog-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing update step for 'spdlog'"
-	cd /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog && /usr/bin/cmake -Dcan_fetch=YES -P /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing update step for 'spdlog'"
+	cd /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog && /usr/bin/cmake -Dcan_fetch=YES -P /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-gitupdate.cmake
 
 spdlog: CMakeFiles/spdlog
 spdlog: CMakeFiles/spdlog-complete
@@ -142,6 +142,6 @@ CMakeFiles/spdlog.dir/clean:
 .PHONY : CMakeFiles/spdlog.dir/clean
 
 CMakeFiles/spdlog.dir/depend:
-	cd /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build /home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/spdlog.dir/depend
 

@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog"
-  "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build"
-  "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2"
-  "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp"
-  "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp"
-  "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src"
-  "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp"
+  "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog"
+  "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build"
+  "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2"
+  "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp"
+  "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp"
+  "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src"
+  "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/robotics/pruebaservicio/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp${cfgdir}") # cfgdir has leading slash
 endif()

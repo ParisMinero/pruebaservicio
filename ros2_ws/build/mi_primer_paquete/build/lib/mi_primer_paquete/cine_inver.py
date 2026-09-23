@@ -121,8 +121,8 @@ class ModifierNode(Node):
         # Generar arreglos para guardar muestreo
         t_m = Matrix.zeros(1, samples)
         for i in range(samples):
-        t_m[i] = dt * i
-        t_m
+            t_m[i] = dt * i
+            t_m
 
         # Arreglos para posición, velocidad y aceleración
         xi_m         = Matrix.zeros(3, samples)
@@ -137,10 +137,10 @@ class ModifierNode(Node):
 
         # Muestreo
         for i in range(samples):
-        xi_m[:, i]         = xi_t.        subs({t: t_m[i]})
-        xi_dot_m[:, i]     = xi_dot_t.    subs({t: t_m[i]})
-        xi_dot_dot_m[:, i] = xi_dot_dot_t.subs({t: t_m[i]})
-        xi_m
+            xi_m[:, i]         = xi_t.        subs({t: t_m[i]})
+            xi_dot_m[:, i]     = xi_dot_t.    subs({t: t_m[i]})
+            xi_dot_dot_m[:, i] = xi_dot_dot_t.subs({t: t_m[i]})
+            xi_m
 
         #Arreglos para posición y velocidad de las juntas
         th_m = Matrix.zeros(3, samples)
@@ -149,7 +149,7 @@ class ModifierNode(Node):
         th_m[:, 0] = Matrix([alpha_in, beta_in, gamma_in])
         # Cinemática inversa
         for i in range(samples):
-        th_dot_m[:, i] = (th_dot.subs({alpha: th_m[0, i], beta: th_m[1, i], 
+            th_dot_m[:, i] = (th_dot.subs({alpha: th_m[0, i], beta: th_m[1, i], 
                                         gamma: th_m[2, i], x_dot: xi_dot_m[0, i],
                                         y_dot: xi_dot_m[1, i], 
                                         z_dot: xi_dot_m[2, i]})).evalf()
