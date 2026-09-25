@@ -1,0 +1,42 @@
+[0.592s] Invoking command in '/home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/build --no-deps symlink_data
+[0.849s] running develop
+[0.987s] running egg_info
+[0.987s] creating mi_primer_paquete.egg-info
+[1.002s] writing mi_primer_paquete.egg-info/PKG-INFO
+[1.002s] writing dependency_links to mi_primer_paquete.egg-info/dependency_links.txt
+[1.003s] writing entry points to mi_primer_paquete.egg-info/entry_points.txt
+[1.003s] writing requirements to mi_primer_paquete.egg-info/requires.txt
+[1.003s] writing top-level names to mi_primer_paquete.egg-info/top_level.txt
+[1.003s] writing manifest file 'mi_primer_paquete.egg-info/SOURCES.txt'
+[1.031s] reading manifest file 'mi_primer_paquete.egg-info/SOURCES.txt'
+[1.032s] writing manifest file 'mi_primer_paquete.egg-info/SOURCES.txt'
+[1.048s] running build_ext
+[1.048s] Creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi-primer-paquete.egg-link (link to .)
+[1.048s] Installing clicked_point_a_juntas script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.048s] Installing joint_states_a_esp32 script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.049s] Installing publicador_juntas_terminal script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.049s] Installing publisher script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.049s] Installing punto_objetivo script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.049s] Installing subscriber script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.049s] Installing subscriber_2 script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.049s] Installing subscriber_inter script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.049s] 
+[1.049s] Installed /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete
+[1.049s] running symlink_data
+[1.049s] creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/ament_index
+[1.049s] creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index
+[1.049s] creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index/packages
+[1.050s] symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/resource/mi_primer_paquete -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index/packages
+[1.050s] symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/package.xml -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete
+[1.050s] creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/launch
+[1.050s] symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/launch/display_2.launch.py -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/launch
+[1.050s] creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf
+[1.050s] symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/urdf/robot.urdf -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf
+[1.050s] creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+[1.050s] symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/urdf/Modelos_en_stl/Ensamblaje_antebrazo.stl -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+[1.050s] symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/urdf/Modelos_en_stl/Ensamblaje_hombro.stl -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+[1.050s] symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/urdf/Modelos_en_stl/Ensamblaje_base.stl -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+[1.050s] symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/urdf/Modelos_en_stl/Ensamblaje_brazo.stl -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+[1.050s] creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/rviz
+[1.050s] symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/rviz/mi_robot.rviz -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/rviz
+[1.080s] Invoked command in '/home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/build --no-deps symlink_data

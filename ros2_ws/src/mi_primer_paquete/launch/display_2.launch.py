@@ -1,3 +1,4 @@
+#display_2.launch.py
 from launch import LaunchDescription
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
@@ -8,7 +9,7 @@ def generate_launch_description():
     pkg_share = get_package_share_directory('mi_primer_paquete')
 
     # 2) Construir la ruta al archivo URDF
-    urdf_file = os.path.join(pkg_share, 'urdf', 'prueba_2.urdf')
+    urdf_file = os.path.join(pkg_share, 'urdf', 'robot.urdf')
 
     # 3) Leer el contenido completo del URDF como texto
     with open(urdf_file, 'r') as file:
@@ -44,8 +45,6 @@ def generate_launch_description():
         output='screen',
         arguments=['-d', rviz_config_file]
     )
-
-
 
     # 8) Lanzar todo
     return LaunchDescription([

@@ -1,0 +1,40 @@
+running develop
+running egg_info
+creating mi_primer_paquete.egg-info
+writing mi_primer_paquete.egg-info/PKG-INFO
+writing dependency_links to mi_primer_paquete.egg-info/dependency_links.txt
+writing entry points to mi_primer_paquete.egg-info/entry_points.txt
+writing requirements to mi_primer_paquete.egg-info/requires.txt
+writing top-level names to mi_primer_paquete.egg-info/top_level.txt
+writing manifest file 'mi_primer_paquete.egg-info/SOURCES.txt'
+reading manifest file 'mi_primer_paquete.egg-info/SOURCES.txt'
+writing manifest file 'mi_primer_paquete.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi-primer-paquete.egg-link (link to .)
+Installing clicked_point_a_juntas script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+Installing joint_states_a_esp32 script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+Installing publicador_juntas_terminal script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+Installing publisher script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+Installing punto_objetivo script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+Installing subscriber script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+Installing subscriber_2 script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+Installing subscriber_inter script to /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+
+Installed /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete
+running symlink_data
+creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/ament_index
+creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index
+creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index/packages
+symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/resource/mi_primer_paquete -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index/packages
+symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/package.xml -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete
+creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/launch
+symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/launch/display_2.launch.py -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/launch
+creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf
+symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/urdf/robot.urdf -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf
+creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/urdf/Modelos_en_stl/Ensamblaje_antebrazo.stl -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/urdf/Modelos_en_stl/Ensamblaje_hombro.stl -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/urdf/Modelos_en_stl/Ensamblaje_base.stl -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/urdf/Modelos_en_stl/Ensamblaje_brazo.stl -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+creating /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/rviz
+symbolically linking /home/nicol/Desktop/pruebaservicio/ros2_ws/build/mi_primer_paquete/rviz/mi_robot.rviz -> /home/nicol/Desktop/pruebaservicio/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/rviz

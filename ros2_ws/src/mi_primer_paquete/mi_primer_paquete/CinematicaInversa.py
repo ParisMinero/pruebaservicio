@@ -1,3 +1,4 @@
+#CinematicaInversa.py
 import sympy
 from sympy import Matrix, sin, cos, diff, solve, symbols
 
